@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.content {
+
+  h1 {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+  }
+
+  button {
+    background: var(--blue);
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+    color: var(--background);
+    font-weight: 400;
+    font-size: 1rem;
+    transition: background .2s ease;
+
+    &:hover {
+      background: rgba(128, 222, 217, 0.8);
+    }
+  }
+}
+
+.line {
+  background: var(--blue);
+  height: 0.2rem;
+  width: 5rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
