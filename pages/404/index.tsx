@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
-import styles from './404.module.scss'
+import styles from './styles.module.scss'
 
 export default function Custom404() {
   const router = useRouter()
